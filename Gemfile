@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
-#gem 'fluentd', '~>0.12.32'
-gem 'fluentd', '=1.5.2'
+gem 'fluentd', '~>0.12.32'
 gem 'fluent-plugin-record-reformer', '~>0.8.3'
 gem 'fluent-plugin-systemd', '=0.0.9'
 gem 'systemd-journal', '=1.3.1'
