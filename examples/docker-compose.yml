@@ -1,0 +1,8 @@
+version: "3"
+services:
+  fluent:
+    image: wxytjustb/fluentd-gcp:latest
+    volumes:
+      - ./fluentd.conf:/etc/fluent/fluent.conf  
+    ports:
+      - 8888:8888  
