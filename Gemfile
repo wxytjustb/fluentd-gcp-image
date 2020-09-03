@@ -11,3 +11,4 @@ gem 'fluent-plugin-multi-format-parser', '~>0.1.1'
 gem 'oj', '~>2.18.1'
 gem 'fluent-plugin-elasticsearch', '=1.18.1'
 gem 'fluent-plugin-rewrite-tag-filter', '=1.6.0'
+gem "json", ">= 2.3.0"
